@@ -7,4 +7,5 @@ gem 'middleman-livereload'
 gem 'rb-inotify'
 
 gem 'haml'
-gem 'sass'
+gem 'compass'
+gem 'zurb-foundation'
