@@ -1,4 +1,5 @@
-.welcome
-  %h1 Middleman is not Watching
-  %p.doc
-    = link_to "Read Online Documentation", "http://middlemanapp.com/"
+.large-12.columns
+	%label Name:
+	%input{ "type" => "text", "ng-model" =>"yourName", "placeholder" =>"Enter a name here"}
+	%hr
+	%h1 Hello {{yourName}}!

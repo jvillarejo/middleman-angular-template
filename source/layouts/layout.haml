@@ -12,11 +12,7 @@
       = data.page.title || "The Middleman"
   
   %body{ "class" => page_classes }
-    .large-12.columns
-      %label Name:
-      %input{ "type" => "text", "ng-model" =>"yourName", "placeholder" =>"Enter a name here"}
-      %hr
-      %h1 Hello {{yourName}}!
+    = yield
 
   
   = javascript_include_tag "all"
